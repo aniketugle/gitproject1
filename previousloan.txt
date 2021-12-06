@@ -1,0 +1,35 @@
+ <h3>PREVIOUS LOAN DETAILS</h3>
+    <div formGroupName="custPreviousLoan">
+
+      <div class="form-row">
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault01">Loan Amount </label>
+          <input type="text" class="form-control" formControlName="pLoanAmt" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefault02">Loan Tenure </label>
+          <input type="text" class="form-control" formControlName="pLoanTenure" required>
+        </div>
+        <div class="col-md-4 mb-3">
+          <label for="validationDefaultUsername">Paid Amount  </label>
+          <div class="input-group">
+            <input type="text" class="form-control" formControlName="paidAmt" aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Remaining Amount  </label>
+            <input type="text" class="form-control" formControlName="remainingAmt" required>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Defaulter Count</label>
+            <input type="text" class="form-control" formControlName="defaulterCount" required>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Bank Details</label>
+            <input type="text" class="form-control" formControlName="pBankDetails" required>
+          </div>
+          
+        </div>
+    </div>
